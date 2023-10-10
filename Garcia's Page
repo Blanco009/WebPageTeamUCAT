@@ -217,6 +217,70 @@
         <br>
         <br>
         
+        <h2>MVP PLayer</h2>
+        <h3>Marcos Reus</h3>
+        <p>Marco Reus was born on 31 May 1989 in Dortmund and plays for Borussia Dortmund. He played for PTSV Dortmund from 1993-1995, for Borussia Dortmund from 1995-2005, for Rot Weiss Ahlen from 2005-2009, for Borussia M'gladbach from 2009-2012, for Borussia Dortmund since 2012 and has played for Borussia Dortmund II since 2012.</p>
+
+
+        <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt56412d63b27675c7/619e511453f5c668a4fa2d9c/GettyImages-1354446766(1).jpg?auto=webp&format=pjpg&width=3840&quality=60" width="700" height="400">
+
+        <br>
+        <br>
+        <br>
+        <h2>Bundesliga Table</h2>
+        <br>
+ 
+        <table class="MyStyle">
+
+
+            <head>
+                <th style="color: blanchedalmond;">Position</th>
+                <th style="color: blanchedalmond;">Club</th>
+                <th style="color: blanchedalmond;">MP</th>
+                <th style="color: blanchedalmond;">GA</th>
+                <th style="color: blanchedalmond;">Pts</th>
+            </head>
+            <body>
+
+                <tr>
+                    <td style="text-align: center;">1</td>
+                    <td style="text-align: center;">Leverkusen</td>
+                    <td style="text-align: center;">7</td>
+                    <td style="text-align: center;">6</td>
+                    <td style="text-align: center;">19</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">2</td>
+                    <td style="text-align: center;">Stuttgart</td>
+                    <td style="text-align: center;">7</td>
+                    <td style="text-align: center;">8</td>
+                    <td style="text-align: center;">18</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">3</td>
+                    <td style="text-align: center;">Bayem</td>
+                    <td style="text-align: center;">7</td>
+                    <td style="text-align: center;">10</td>
+                    <td style="text-align: center;">17</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">4</td>
+                    <td style="text-align: center;">Dortmund</td>
+                    <td style="text-align: center;">7</td>
+                    <td style="text-align: center;">9</td>
+                    <td style="text-align: center;">17</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">5</td>
+                    <td style="text-align: center;">Hoffenheim</td>
+                    <td style="text-align: center;">7</td>
+                    <td style="text-align: center;">5</td>
+                    <td style="text-align: center;">17</td>
+                </tr>
+
+            </body>
+
+        </table>
 
     </body>
 
