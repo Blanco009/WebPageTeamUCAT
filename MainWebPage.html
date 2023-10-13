@@ -1,242 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
+<<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact List</title>
 
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            background-color: aquamarine;
-        }
 
-        th,
-        td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-        }
 
-        th {
-            background-color: aqua;
-        }
-
-        h1 {
-            border: 1px solid black;
-            padding: 25px;
-            text-align: center;
-            background-color:cornflowerblue;
-        }
-    </style>
 </head>
 
 <body>
-    <h1>Welcome to the database </h1>
-    <a href="https://github.com/Blanco009?tab=repositories">Click here --> Link to the page repositories</a>
-    <br>
-    <br>
-    <a href="https://www.msn.com/es-xl/noticias/other/presidente-de-paraguay-anuncia-que-el-internet-satelital-de-starlink-llegar%C3%A1-al-pa%C3%ADs/ar-AA1hSOIh?ocid=msedgntp&cvid=35e3413dbcf6492db6d2db80f72b338d&ei=10">Next Web Page</a>
-    <br>
-    <br>
-    <h1>Contact List</h1>
 
-    <table>
-        <thead>
-            <tr> <!--This is the default table template-->
-                <th>ID</th>
-                <th>Full Name</th>
-                <th>Phone Number</th>
-                <th>Email</th>
-                <th>Job</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr> <!-- Create random contacts -->
-                <td>506-0001</td>
-                <td>John Doe</td>
-                <td>555-123-4567</td>
-                <td>johndoe@gmail.com</td>
-                <td>Cybersecurity L1</td>
-            </tr>
-            <tr>
-                <td>506-0002</td>
-                <td>Jane Smith</td>
-                <td>123-456-7890</td>
-                <td>janesmith@yahoo.com</td>
-                <td>Tier 1</td>
-            </tr>
-            <tr>
-                <td>506-0003</td>
-                <td>Michael Johnson</td>
-                <td>555-555-5555</td>
-                <td>michael@hotmail.com</td>
-                <td>Engineer</td>
-            </tr>
-            <tr>
-                <td>506-0004</td>
-                <td>Susan Brown</td>
-                <td>987-654-3210</td>
-                <td>susan@gmail.com</td>
-                <td>Sales</td>
-            </tr>
-            <tr>
-                <td>506-0005</td>
-                <td>David Williams</td>
-                <td>111-222-3333</td>
-                <td>david@yahoo.com</td>
-                <td>SME L3</td>
-            </tr>
-            <tr>
-                <td>506-0006</td>
-                <td>Laura Taylor</td>
-                <td>444-555-6666</td>
-                <td>laura@hotmail.com</td>
-                <td>SME L2</td>
-            </tr>
-            <tr>
-                <td>506-0007</td>
-                <td>Robert Lee</td>
-                <td>777-888-9999</td>
-                <td>robert@gmail.com</td>
-                <td>IT Trainer</td>
-            </tr>
-            <tr>
-                <td>506-0008</td>
-                <td>Sarah Johnson</td>
-                <td>333-999-7777</td>
-                <td>sarah@yahoo.com</td>
-                <td>Cybersecurity L2</td>
-            </tr>
-            <tr>
-                <td>506-0009</td>
-                <td>William Davis</td>
-                <td>222-333-4444</td>
-                <td>william@hotmail.com</td>
-                <td>Senior Developer</td>
-            </tr>
-            <tr>
-                <td>506-0010</td>
-                <td>Emily Wilson</td>
-                <td>888-777-6666</td>
-                <td>emily@gmail.com</td>
-                <td>Trainer</td>
-            </tr>
-            <tr>
-                <td>506-0011</td>
-                <td>Joseph Harris</td>
-                <td>666-555-4444</td>
-                <td>joseph@yahoo.com</td>
-                <td>Team Manager</td>
-            </tr>
-            <tr>
-                <td>506-0012</td>
-                <td>Mary Martinez</td>
-                <td>555-222-8888</td>
-                <td>mary@hotmail.com</td>
-                <td>Quality Assecurance Manager</td>
-            </tr>
-            <tr>
-                <td>506-0013</td>
-                <td>James Moore</td>
-                <td>222-888-7777</td>
-                <td>james@gmail.com</td>
-                <td>Cybersecurity L3</td>
-            </tr>
-            <tr>
-                <td>506-0014</td>
-                <td>Linda Clark</td>
-                <td>333-444-5555</td>
-                <td>linda@yahoo.com</td>
-                <td>Tier 1</td>
-            </tr>
-            <tr>
-                <td>506-0015</td>
-                <td>Richard Lewis</td>
-                <td>888-555-2222</td>
-                <td>richard@hotmail.com</td>
-                <td>Tester</td>
-            </tr>
-            <tr>
-                <td>506-0016</td>
-                <td>Patricia Turner</td>
-                <td>555-444-3333</td>
-                <td>patricia@gmail.com</td>
-                <td>Quality Assecurance Auto</td>
-            </tr>
-            <tr>
-                <td>506-0017</td>
-                <td>Christopher Hall</td>
-                <td>111-555-6666</td>
-                <td>christopher@yahoo.com</td>
-                <td>Tier 2</td>
-            </tr>
-            <tr>
-                <td>506-0018</td>
-                <td>Kimberly Scott</td>
-                <td>333-222-7777</td>
-                <td>kimberly@hotmail.com</td>
-                <td>Quality Assecurance</td>
-            </tr>
-            <tr>
-                <td>506-0019</td>
-                <td>Daniel King</td>
-                <td>999-777-6666</td>
-                <td>daniel@gmail.com</td>
-                <td>Tester</td>
-            </tr>
-            <tr>
-                <td>506-0020</td>
-                <td>Maria Wright</td>
-                <td>555-333-4444</td>
-                <td>maria@yahoo.com</td>
-                <td>Quality Assecurance</td>
-            </tr>
-            <tr>
-                <td>506-0021</td>
-                <td>Matthew Young</td>
-                <td>222-666-9999</td>
-                <td>matthew@hotmail.com</td>
-                <td>Tester</td>
-            </tr>
-            <tr>
-                <td>506-0022</td>
-                <td>Linda Hall</td>
-                <td>777-333-5555</td>
-                <td>linda@gmail.com</td>
-                <td>Engineer A+</td>
-            </tr>
-            <tr>
-                <td>506-0023</td>
-                <td>William Turner</td>
-                <td>333-111-8888</td>
-                <td>william@yahoo.com</td>
-                <td>Electrical Engineer</td>
-            </tr>
-            <tr>
-                <td>506-0024</td>
-                <td>Susan King</td>
-                <td>666-111-5555</td>
-                <td>susan@hotmail.com</td>
-                <td>Tier 2</td>
-            </tr>
-            <tr>
-                <td>506-0025</td>
-                <td>Charles Scott</td>
-                <td>555-888-2222</td>
-                <td>charles@gmail.com</td>
-                <td>Cybersecurity L1</td>
-            </tr>
-        </tbody>
-    </table>
-    <br>
-    <br>
-    <br>
-    <!-- Include an Alienware computer image here -->
-    <center><img src="C:\Users\Usuario\Downloads\R.jpg" alt="Alienware Computer" height="1000" width="1500"></center>
+    <Style>
+
+        body {
+
+            background-color: #1c1c1c;
+
+            color: white; /* Esto cambia el color del texto para que sea legible en fondo negro */
+
+        }
+
+        a:link {
+
+        color: gray;
+
+        }
+
+        a:visited {
+
+        color: white;
+
+        }   
+
+    </Style>
+
+    <h1>Welcome to the main page</h1>
+
+    <h2>Below you can navegate through all our Architeture Team Pages:</h2>
+
+    <ul>
+
+        <li><a href="">Antonio's Page</li>
+
+        <li><a href="">Bryan's Page</li>
+
+        <li><a href=""> Maciel's Page</li>
+
+        <li><a href="">Jose's Page</li>
+
+    </ul>
+
+
+
+
 
 </body>
+
+
+
+
+
+
 
 </html>
