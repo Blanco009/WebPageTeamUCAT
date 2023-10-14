@@ -217,7 +217,7 @@
         <br>
         <br>
         
-        <h2>MVP PLayer</h2>
+        <h2>MVP Player</h2>
         <h3>Marcos Reus</h3>
         <p>Marco Reus was born on 31 May 1989 in Dortmund and plays for Borussia Dortmund. He played for PTSV Dortmund from 1993-1995, for Borussia Dortmund from 1995-2005, for Rot Weiss Ahlen from 2005-2009, for Borussia M'gladbach from 2009-2012, for Borussia Dortmund since 2012 and has played for Borussia Dortmund II since 2012.</p>
 
@@ -318,11 +318,22 @@
 
         </table>
 
+            <h2> For more information about Borussia Dormund, please visit below hiperlink:</h2>
+    
+        <a href="https://www.bvb.de/">https://www.bvb.de/</a>
+        <br>
+        <br>
+
+        <h2>Below you can find the Architecture Team's Main Page:</h2>
+        <a href="https://www.bvb.de/">Main Page</a>
+
+        
+
     </body>
 
-    <br>
-    <br>
 
-    <a href="https://www.bvb.de/">For more information about Borussia Dormund, please visit this link</a>
+
+
+
     
 </html>
